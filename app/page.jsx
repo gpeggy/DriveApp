@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Home = () => {
-  return (
+const Home = ({ children }) => {
+  
+    return (
     <div>
-      <h1>Drive App</h1>
+      {children}
     </div>
   )
 }
